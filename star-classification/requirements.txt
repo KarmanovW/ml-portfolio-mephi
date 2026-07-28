@@ -1,0 +1,6 @@
+opendatasets
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn

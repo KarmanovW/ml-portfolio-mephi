@@ -1,0 +1,11 @@
+torch==2.4.1
+diffusers @ git+https://github.com/huggingface/diffusers
+peft @ git+https://github.com/huggingface/peft
+transformers==4.44.2
+accelerate==0.34.2
+bitsandbytes==0.43.3
+xformers==0.0.28
+datasets==2.21.0
+facenet-pytorch==2.6.0
+pandas==2.2.2
+matplotlib==3.9.2

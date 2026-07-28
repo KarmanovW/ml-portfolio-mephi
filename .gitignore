@@ -1,0 +1,51 @@
+# данные и веса
+data/
+datasets/
+training_data/
+yolo_dataset/
+frames/
+*.pt
+*.pth
+*.safetensors
+*.joblib
+*.onnx
+*.zip
+*.tar.gz
+
+# личные данные
+sdxl-lora-finetuning/training_data/
+sdxl-lora-finetuning/generations/
+badminton-team-prediction/data/survey_raw.csv
+badminton-team-prediction/data/*_raw.csv
+
+# датасет тестового задания -- не мой, не публикуется
+wb-query-attributes/data/test_queries_sample.csv
+wb-query-attributes/data/extracted_attributes.csv
+
+# выводы обучения
+runs/
+yolo_training/
+checkpoint-*/
+lora_*_output/
+wandb/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# резюме -- с личными контактами, в публичный репозиторий не нужно
+Резюме_*.docx
+Резюме_*.pdf
+
+# рабочая инструкция, не для репозитория
+ПУШ_В_GIT.md
+sync-repos.ps1

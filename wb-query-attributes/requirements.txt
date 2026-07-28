@@ -1,0 +1,9 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.2
+torch==2.4.1
+transformers==4.44.2
+datasets==2.21.0
+seqeval==1.2.2
+requests==2.32.3

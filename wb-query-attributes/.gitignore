@@ -1,0 +1,21 @@
+# датасет тестового задания -- не мой, не публикуется
+data/test_queries_sample.csv
+data/extracted_attributes.csv
+data/queries_eda_processed.csv
+
+# обученная NER-модель
+ner_checkpoints/
+ner_model_final/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
